@@ -1,2 +1,2 @@
 # QA-Portafolio
-Here you will see my portafilo services
+Here you will see my portfolio services
