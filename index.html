@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Servicios - QA Engineer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', Arial, sans-serif; background: #0f172a; color: #e2e8f0; }
+    header { text-align: center; padding: 4rem 1rem; background: linear-gradient(135deg,#0f172a,#1e293b,#334155); animation: fadeIn 1.4s ease; }
+    h1 { font-size: 3rem; margin-bottom: .5rem; }
+    h2 { font-size: 2rem; color: #38bdf8; margin-top: 2rem; }
+    .container { max-width: 1100px; margin: auto; padding: 2rem 1rem; animation: slideUp .8s ease; }
+    .card { background: #1e293b; padding: 1.8rem; border-radius: 16px; margin: 1.2rem 0; box-shadow: 0 4px 14px rgba(0,0,0,.3); transition: transform .25s; }
+    .card:hover { transform: translateY(-4px); }
+    ul { padding-left: 1.2rem; }
+    .grid { display: grid; gap: 1.5rem; }
+    @media (min-width: 768px) { .grid-2 { grid-template-columns: repeat(2,1fr); } }
+    @keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+    @keyframes slideUp { from {opacity:0; transform: translateY(20px);} to {opacity:1; transform: translateY(0);} }
+    a { color: #38bdf8; text-decoration: none; }
+    footer { text-align: center; padding: 2rem; opacity: 0.7; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ingeniero QA – Portafolio Profesional</h1>
+    <p>Especialista en Calidad de Software · Web · Mobile · Automatización</p>
+  </header>
+
+  <main class="container">
+
+    <h2>Sobre mí</h2>
+    <div class="card">
+      <p>Soy un QA Engineer enfocado en llevar productos Web y Mobile al siguiente nivel de calidad. Combino pensamiento crítico, visión orientada al riesgo y automatización estratégica para impulsar entregas más estables, rápidas y confiables.</p>
+    </div>
+
+    <h2>Servicios Profesionales</h2>
+    <div class="grid grid-2">
+
+      <div class="card">
+        <h3>Pruebas Funcionales</h3>
+        <ul>
+          <li>Testing exploratorio enfocado en riesgos</li>
+          <li>Validación de flujos end-to-end</li>
+          <li>Regresión manual estratégica</li>
+          <li>Testing Web y Mobile</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Automation QA</h3>
+        <ul>
+          <li>Automatización E2E (Selenium, Playwright, Cypress)</li>
+          <li>Automatización Mobile (Appium)</li>
+          <li>Diseño de frameworks de pruebas</li>
+          <li>Integración con CI/CD</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Pruebas de Performance</h3>
+        <ul>
+          <li>Pruebas de carga, stress y estabilidad</li>
+          <li>Identificación de cuellos de botella</li>
+          <li>JMeter · k6</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Pruebas de Seguridad</h3>
+        <ul>
+          <li>Validación OWASP Top 10</li>
+          <li>Análisis inicial de vulnerabilidades</li>
+          <li>Revisión de malas prácticas de seguridad</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <h2>Habilidades Técnicas</h2>
+    <div class="card">
+      <ul>
+        <li>Metodologías ágiles: Scrum · Kanban</li>
+        <li>Diseño avanzado de casos de prueba</li>
+        <li>Gestión y priorización de defectos</li>
+        <li>Herramientas: JIRA, TestRail, Postman, Git, BrowserStack</li>
+        <li>Lenguajes: Python · JavaScript</li>
+        <li>Automatización Web/Mobile: Selenium, Playwright, Cypress, Appium</li>
+      </ul>
+    </div>
+
+    <h2>Casos de Éxito</h2>
+    <div class="card">
+      <ul>
+        <li>Reducción del 40% en defectos críticos antes de release gracias a estrategia de riesgo.</li>
+        <li>Implementación de framework de automatización que aceleró regresiones en un 70%.</li>
+        <li>Validación integral Mobile en entornos reales y emulados.</li>
+      </ul>
+    </div>
+
+    <h2>Métricas de Impacto</h2>
+    <div class="card">
+      <ul>
+        <li>Velocidad de ejecución automatizada: +300% vs pruebas manuales.</li>
+        <li>Cobertura funcional asegurada: 85%-95% en releases clave.</li>
+        <li>Ruido en defectos reducidos (Duplicados/No reproducibles): -60%.</li>
+      </ul>
+    </div>
+
+    <h2>Contacto</h2>
+    <div class="card">
+      <p>Email: <a href="#">tuemail@example.com</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/tuperfil</a></p>
+    </div>
+
+  </main>
+
+  <footer>
+    © 2025 QA Portfolio – Desarrollado para clientes que buscan calidad real
+  </footer>
+
+</body>
+</html>
