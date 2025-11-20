@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QA Engineer Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', Arial, sans-serif; background: #0f172a; color: #e2e8f0; }
+    header { text-align: center; padding: 4rem 1rem; background: linear-gradient(135deg,#0f172a,#1e293b,#334155); }
+    h1 { font-size: 3rem; margin-bottom: .5rem; }
+    h2 { font-size: 2rem; color: #38bdf8; margin-top: 2rem; }
+    .container { max-width: 1100px; margin: auto; padding: 2rem 1rem; }
+    .card { background: #1e293b; padding: 1.8rem; border-radius: 16px; margin: 1.2rem 0; box-shadow: 0 4px 14px rgba(0,0,0,.3); }
+    ul { padding-left: 1.2rem; }
+    .grid { display: grid; gap: 1.5rem; }
+    @media (min-width: 768px) { .grid-2 { grid-template-columns: repeat(2,1fr); } }
+    #lang-switch { position: fixed; top: 20px; right: 20px; padding: .6rem 1rem; background: #38bdf8; color: #0f172a; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <button id="lang-switch">EN</button>
+  <header>
+    <h1 data-es="Ingeniero QA – Portafolio Profesional" data-en="QA Engineer – Professional Portfolio">Ingeniero QA – Portafolio Profesional</h1>
+    <p data-es="Especialista en Calidad de Software · Web · Mobile · Automatización" data-en="Software Quality Specialist · Web · Mobile · Automation">Especialista en Calidad de Software · Web · Mobile · Automatización</p>
+  </header>
+
+  <main class="container">
+
+    <h2 data-es="Sobre mí" data-en="About Me">Sobre mí</h2>
+    <div class="card">
+      <p data-es="Soy un QA Engineer enfocado en llevar productos Web y Mobile al siguiente nivel de calidad. Combino pensamiento crítico, visión orientada al riesgo y automatización estratégica para impulsar entregas más estables, rápidas y confiables." data-en="I am a QA Engineer focused on taking Web and Mobile products to the next level of quality. I combine critical thinking, risk-based strategies, and strategic automation to deliver more stable, faster, and reliable releases.">Soy un QA Engineer enfocado en llevar productos Web y Mobile al siguiente nivel de calidad. Combino pensamiento crítico, visión orientada al riesgo y automatización estratégica para impulsar entregas más estables, rápidas y confiables.</p>
+    </div>
+
+    <h2 data-es="Servicios Profesionales" data-en="Professional Services">Servicios Profesionales</h2>
+    <div class="grid grid-2">
+
+      <div class="card">
+        <h3 data-es="Pruebas Funcionales" data-en="Functional Testing">Pruebas Funcionales</h3>
+        <ul>
+          <li data-es="Testing exploratorio enfocado en riesgos" data-en="Risk-based exploratory testing"></li>
+          <li data-es="Validación de flujos end-to-end" data-en="End-to-end flow validation"></li>
+          <li data-es="Regresión manual estratégica" data-en="Strategic manual regression"></li>
+          <li data-es="Testing Web y Mobile" data-en="Web & Mobile testing"></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 data-es="Automation QA" data-en="Automation QA">Automation QA</h3>
+        <ul>
+          <li data-es="Automatización E2E (Selenium, Playwright, Cypress)" data-en="E2E Automation (Selenium, Playwright, Cypress)"></li>
+          <li data-es="Automatización Mobile (Appium)" data-en="Mobile Automation (Appium)"></li>
+          <li data-es="Diseño de frameworks de pruebas" data-en="Test framework design"></li>
+          <li data-es="Integración con CI/CD" data-en="CI/CD integration"></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 data-es="Pruebas de Performance" data-en="Performance Testing">Pruebas de Performance</h3>
+        <ul>
+          <li data-es="Pruebas de carga, stress y estabilidad" data-en="Load, stress, and stability testing"></li>
+          <li data-es="Identificación de cuellos de botella" data-en="Bottleneck identification"></li>
+          <li data-es="JMeter · k6" data-en="JMeter · k6"></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 data-es="Pruebas de Seguridad" data-en="Security Testing">Pruebas de Seguridad</h3>
+        <ul>
+          <li data-es="Validación OWASP Top 10" data-en="OWASP Top 10 validation"></li>
+          <li data-es="Análisis inicial de vulnerabilidades" data-en="Initial vulnerability analysis"></li>
+          <li data-es="Revisión de malas prácticas de seguridad" data-en="Security bad practice review"></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <h2 data-es="Habilidades Técnicas" data-en="Technical Skills">Habilidades Técnicas</h2>
+    <div class="card">
+      <ul>
+        <li data-es="Metodologías ágiles: Scrum · Kanban" data-en="Agile methodologies: Scrum · Kanban"></li>
+        <li data-es="Diseño avanzado de casos de prueba" data-en="Advanced test case design"></li>
+        <li data-es="Gestión y priorización de defectos" data-en="Defect management and prioritization"></li>
+        <li data-es="Herramientas: JIRA, TestRail, Postman, Git, BrowserStack" data-en="Tools: JIRA, TestRail, Postman, Git, BrowserStack"></li>
+        <li data-es="Lenguajes: Python · JavaScript" data-en="Languages: Python · JavaScript"></li>
+        <li data-es="Automatización Web/Mobile: Selenium, Playwright, Cypress, Appium" data-en="Web/Mobile Automation: Selenium, Playwright, Cypress, Appium"></li>
+      </ul>
+    </div>
+
+    <h2 data-es="Casos de Éxito" data-en="Success Stories">Casos de Éxito</h2>
+    <div class="card">
+      <ul>
+        <li data-es="Reducción del 40% en defectos críticos antes de release gracias a estrategia de riesgo." data-en="40% reduction in critical defects before release thanks to risk-based strategy."></li>
+        <li data-es="Implementación de framework de automatización que aceleró regresiones en un 70%." data-en="Developed an automation framework that sped up regression cycles by 70%."></li>
+        <li data-es="Validación integral Mobile en entornos reales y emulados." data-en="End-to-end Mobile validation across real and emulated environments."></li>
+      </ul>
+    </div>
+
+    <h2 data-es="Métricas de Impacto" data-en="Impact Metrics">Métricas de Impacto</h2>
+    <div class="card">
+      <ul>
+        <li data-es="Velocidad de ejecución automatizada: +300% vs pruebas manuales." data-en="Automated execution speed: +300% vs manual testing."></li>
+        <li data-es="Cobertura funcional asegurada: 85%-95% en releases clave." data-en="Functional coverage achieved: 85%-95% on key releases."></li>
+        <li data-es="Ruido en defectos reducidos (Duplicados/No reproducibles): -60%." data-en="Noise in defect reporting (duplicates/non-reproducible) reduced by 60%."></li>
+      </ul>
+    </div>
+
+    <h2 data-es="Contacto" data-en="Contact">Contacto</h2>
+    <div class="card">
+      <p>Email: tuemail@example.com</p>
+      <p>LinkedIn: linkedin.com/in/tuperfil</p>
+    </div>
+
+  </main>
+
+  <footer>
+    © 2025 QA Portfolio
+  </footer>
+
+  <script>
+    const switchBtn = document.getElementById('lang-switch');
+    let current = 'es';
+
+    switchBtn.addEventListener('click', () => {
+      current = current === 'es' ? 'en' : 'es';
+      switchBtn.textContent = current === 'es' ? 'EN' : 'ES';
+
+      document.querySelectorAll('[data-es]')
